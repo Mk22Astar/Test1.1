@@ -20,57 +20,23 @@
         app:layout_constraintVertical_bias="0.161" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/login"
         android:layout_width="264dp"
         android:layout_height="63dp"
+        android:layout_margin="10dp"
         android:backgroundTint="#009688"
         android:fallbackLineSpacing="false"
-        android:onClick="btnClik"
+        android:onClick="loginClik"
         android:text="Vxod"
         android:textColor="#999999"
-        android:layout_margin="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.894" />
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="178dp"
-        android:layout_height="42dp"
-        android:layout_margin="10dp"
-        android:backgroundTint="#009688"
-        android:fallbackLineSpacing="false"
-        android:onClick="btnClik"
-        android:text="Vxod"
-        android:textColor="#999999"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.068"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="126dp"
-        android:layout_height="38dp"
-        android:layout_margin="10dp"
-        android:backgroundTint="#009688"
-        android:fallbackLineSpacing="false"
-        android:onClick="btnClik"
-        android:text="Vxod"
-        android:textColor="#999999"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.856"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
-
     <EditText
-        android:id="@+id/email"
+        android:id="@+id/name"
         android:layout_width="280dp"
         android:layout_height="79dp"
         android:layout_marginEnd="32dp"

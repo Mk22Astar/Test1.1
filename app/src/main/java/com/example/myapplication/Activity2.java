@@ -11,9 +11,12 @@ import android.widget.TextView;
 public class Activity2 extends AppCompatActivity {
 
 //    TextView txtUser;
+        DBHelper dbHelper;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        dbHelper = new DBHelper(this);
+        dbHelper.queryData();
         setContentView(R.layout.activity_2);
 //        txtUser = (TextView) findViewById(R.id.textUser);
 
